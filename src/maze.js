@@ -115,12 +115,12 @@ Maze.prototype.parseMaze = function(nodes) {
 		biasCount++;
 
 		max++;
-		if (this.maxMaze && (this.maxMaze < max)) {
-			alert('Please use smaller maze dimensions');
-			move_nodes = [];
-			this.matrix = [];
-			return [];
-		}
+		//if (this.maxMaze && (this.maxMaze < max)) {
+			//alert('Please use smaller maze dimensions');
+			//move_nodes = [];
+			//this.matrix = [];
+			//return [];
+		//}
 
 		let next = this.getNeighbours(position);
 		let directions = Object.keys(next).filter(function(key) {
