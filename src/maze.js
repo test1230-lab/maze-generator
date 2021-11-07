@@ -395,11 +395,11 @@ Maze.prototype.draw = function() {
 		return;
 	}
 
-	if (!this.isValidSize()) {
-		this.matrix = [];
-		alert('Please use smaller maze dimensions');
-		return;
-	}
+	//if (!this.isValidSize()) {
+		//this.matrix = [];
+		//alert('Please use smaller maze dimensions');
+		//return;
+	//}
 
 	canvas.width = ((this.width * 2) + 1) * this.wallSize;;
 	canvas.height = ((this.height * 2) + 1) * this.wallSize;
