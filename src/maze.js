@@ -41,11 +41,11 @@ function Maze(args) {
 }
 
 Maze.prototype.generate = function() {
-	if (!this.isValidSize()) {
-		this.matrix = [];
-		alert('Please use smaller maze dimensions');
-		return;
-	}
+	//if (!this.isValidSize()) {
+		//this.matrix = [];
+		//alert('Please use smaller maze dimensions');
+		//return;
+	//}
 
 	let nodes = this.generateNodes();
 	nodes = this.parseMaze(nodes);
